@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/hackathon_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hackathon_ws/install -G Unix Makefiles
