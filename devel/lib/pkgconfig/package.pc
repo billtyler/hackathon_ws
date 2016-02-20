@@ -1,0 +1,8 @@
+prefix=/home/hackathon_ws/devel
+
+Name: package
+Description: Description of package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hackathon_ws/devel/lib 
+Requires: 

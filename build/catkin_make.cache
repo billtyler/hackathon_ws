@@ -1,2 +1,2 @@
-common_msgs/actionlib_msgs:common_msgs/common_msgs:common_msgs/diagnostic_msgs:common_msgs/geometry_msgs:common_msgs/nav_msgs:common_msgs/sensor_msgs:common_msgs/shape_msgs:common_msgs/stereo_msgs:common_msgs/trajectory_msgs:common_msgs/visualization_msgs
+package
 -DCATKIN_DEVEL_PREFIX=/home/hackathon_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hackathon_ws/install -G Unix Makefiles

@@ -5,7 +5,7 @@ project(package)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  common_msgs
+  geometry_msgs
   roscpp
   rospy
 )
@@ -128,7 +128,7 @@ include_directories(
 # add_dependencies(package ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-add_executable(TB6612_driver_node src/TB6612_driver_node/node.cpp)
+add_executable(TB6612_driver_node src/TB6612_driver_node/src/node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above

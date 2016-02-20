@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "package")
+set(package_MAINTAINER "root <root@todo.todo>")
+set(package_DEPRECATED "")
+set(package_VERSION "0.0.0")
+set(package_BUILD_DEPENDS "geometry_msgs" "roscpp" "rospy")
+set(package_RUN_DEPENDS "geometry_msgs" "roscpp" "rospy")
+set(package_BUILDTOOL_DEPENDS "catkin")

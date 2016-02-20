@@ -117,16 +117,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/hackathon_ws/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/common_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/actionlib_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/diagnostic_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/geometry_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/nav_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/sensor_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/shape_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/stereo_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/trajectory_msgs/cmake_install.cmake")
-  INCLUDE("/home/hackathon_ws/build/common_msgs/visualization_msgs/cmake_install.cmake")
+  INCLUDE("/home/hackathon_ws/build/package/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

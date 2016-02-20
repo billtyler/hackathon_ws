@@ -260,6 +260,9 @@ catkin_DIR:PATH=/opt/ros/jade/share/catkin/cmake
 //Value Computed by CMake
 common_msgs_BINARY_DIR:STATIC=/home/hackathon_ws/build/common_msgs/common_msgs
 
+//The directory containing a CMake configuration file for common_msgs.
+common_msgs_DIR:PATH=common_msgs_DIR-NOTFOUND
+
 //Value Computed by CMake
 common_msgs_SOURCE_DIR:STATIC=/home/hackathon_ws/src/common_msgs/common_msgs
 
@@ -328,7 +331,7 @@ hackathon_package_BINARY_DIR:STATIC=/home/hackathon_ws/build/hackathon_package
 hackathon_package_SOURCE_DIR:STATIC=/home/hackathon_ws/src/hackathon_package
 
 //Path to a library.
-lib:FILEPATH=/usr/lib/i386-linux-gnu/libpthread.so
+lib:FILEPATH=/opt/ros/jade/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/jade/share/message_generation/cmake
@@ -341,6 +344,12 @@ nav_msgs_BINARY_DIR:STATIC=/home/hackathon_ws/build/common_msgs/nav_msgs
 
 //Value Computed by CMake
 nav_msgs_SOURCE_DIR:STATIC=/home/hackathon_ws/src/common_msgs/nav_msgs
+
+//Value Computed by CMake
+package_BINARY_DIR:STATIC=/home/hackathon_ws/build/package
+
+//Value Computed by CMake
+package_SOURCE_DIR:STATIC=/home/hackathon_ws/src/package
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/jade/share/rosconsole/cmake
@@ -516,7 +525,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
