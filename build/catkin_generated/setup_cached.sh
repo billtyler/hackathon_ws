@@ -7,7 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/hackathon_ws/devel/lib/i386-linux-gnu:/opt/ros/jade/lib/i386-linux-gnu:/home/hackathon_ws/devel/lib:/home/hackthon_ws/devel/lib:/opt/ros/jade/lib"
-export PKG_CONFIG_PATH="/home/hackathon_ws/devel/lib/i386-linux-gnu/pkgconfig:/opt/ros/jade/lib/i386-linux-gnu/pkgconfig:/home/hackathon_ws/devel/lib/pkgconfig:/home/hackthon_ws/devel/lib/pkgconfig:/opt/ros/jade/lib/pkgconfig"
+export LD_LIBRARY_PATH="/home/hackathon_ws/devel/lib/i386-linux-gnu:/opt/ros/jade/lib/i386-linux-gnu:/home/hackathon_ws/devel/lib:/opt/ros/jade/lib"
+export PKG_CONFIG_PATH="/home/hackathon_ws/devel/lib/i386-linux-gnu/pkgconfig:/opt/ros/jade/lib/i386-linux-gnu/pkgconfig:/home/hackathon_ws/devel/lib/pkgconfig:/opt/ros/jade/lib/pkgconfig"
 export PWD="/home/hackathon_ws/build"
-export ROS_PACKAGE_PATH="/home/hackathon_ws/src:/opt/ros/jade/share:/opt/ros/jade/stacks"
