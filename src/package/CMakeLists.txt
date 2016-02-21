@@ -135,9 +135,9 @@ add_executable(TB6612_driver_node src/TB6612_driver_node/src/node.cpp)
 # add_dependencies(package_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(package_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(TB6612_driver_node
+  ${catkin_LIBRARIES}
+)
 
 #############
 ## Install ##
