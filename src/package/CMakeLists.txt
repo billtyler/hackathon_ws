@@ -118,9 +118,9 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(package
-#   src/${PROJECT_NAME}/package.cpp
-# )
+add_library(tb6612
+  src/TB6612_driver_node/src/SparkFun_TB6612_Edison.cpp
+)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -136,6 +136,8 @@ add_executable(TB6612_driver_node src/TB6612_driver_node/src/node.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(TB6612_driver_node
+  tb6612
+  mraa
   ${catkin_LIBRARIES}
 )
 
