@@ -30,11 +30,9 @@ def talker():
     while not rospy.is_shutdown():
         count = pixy_get_blocks(100, blocks)
         if count > 0:
-	    promiximity = locks[index].width * blocks[index].height
-            for index in range (0, count):
-                ros_msg = '[sig=%d x=%d y=%d p=%3d a=%3d]' % (blocks[index].signature, blocks[index].x, blocks[index].y,
-                 proximity,
-                 blocks[index].angle)
+            for index in range (0, count): 
+	        proximity = blocks[index].width * blocks[index].height
+	        ros_msg = '[sig=%d x=%d y=%d p=%3d a=%3d]' % (blocks[index].signature, blocks[index].x, blocks[index].y, proximity, blocks[index].angle)
                 rospy.loginfo(ros_msg)
                 pub.publish(ros_msg)
                 rate.sleep()
